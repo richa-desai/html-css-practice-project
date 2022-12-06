@@ -85,22 +85,22 @@ Structural pseudo classes allow access to the child elements present within the 
 Selector|Example|Example description
 ---|---|---
 .class1 .class2|.name1 .name2|Selects all elements with name2 that is a descendant of an element with name1
-elementelement|div p|Selects all <p> elements inside <div> elements
-element>element|div > p|Selects all <p> elements where the parent is a <div> element
+element element|div p|Selects all `<p>` elements inside `<div>` elements
+element>element|div > p|Selects all `<p>` elements where the parent is a `<div>` element
 :active|a:active|Selects the active link
-:first-child|p:first-child|Selects every <p> element that is the first child of its parent
-:first-of-type|p:first-of-type|Selects every <p> element that is the first <p> element of its parent
+:first-child|p:first-child|Selects every `<p>` element that is the first child of its parent
+:first-of-type|p:first-of-type|Selects every `<p>` element that is the first `<p>` element of its parent
 :focus|input:focus|Selects the input element which has focus
 :hover|a:hover|Selects links on mouse over
-:last-child|p:last-child|Selects every <p> element that is the last child of its parent
-:last-of-type|p:last-of-type|Selects every <p> element that is the last <p> element of its parent
+:last-child|p:last-child|Selects every `<p>` element that is the last child of its parent
+:last-of-type|p:last-of-type|Selects every `<p>` element that is the last `<p>` element of its parent
 :link|a:link|Selects all unvisited links
-:nth-child(n)|p:nth-child(2)|Selects every <p> element that is the second child of its parent
-:nth-last-child(n)|p:nth-last-child(2)|Selects every <p> element that is the second child of its parent, counting from the last child
-:nth-last-of-type(n)|p:nth-last-of-type(2)|Selects every <p> element that is the second <p> element of its parent, counting from the last child
-:nth-of-type(n)|p:nth-of-type(2)|Selects every <p> element that is the second <p> element of its parent
-:only-of-type|p:only-of-type|Selects every <p> element that is the only <p> element of its parent
-:only-child|p:only-child|Selects every <p> element that is the only child of its parent
+:nth-child(n)|p:nth-child(2)|Selects every `<p>` element that is the second child of its parent
+:nth-last-child(n)|p:nth-last-child(2)|Selects every `<p>` element that is the second child of its parent, counting from the last child
+:nth-last-of-type(n)|p:nth-last-of-type(2)|Selects every `<p>` element that is the second `<p>` element of its parent, counting from the last child
+:nth-of-type(n)|p:nth-of-type(2)|Selects every `<p>` element that is the second `<p>` element of its parent
+:only-of-type|p:only-of-type|Selects every `<p>` element that is the only `<p>` element of its parent
+:only-child|p:only-child|Selects every `<p>` element that is the only child of its parent
 :visited|a:visited|Selects all visited links
 
 
