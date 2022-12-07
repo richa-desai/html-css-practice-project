@@ -1,8 +1,7 @@
 body {
-    background-color: bisque;
     display: grid;
     grid-template-rows: auto 1fr auto;
-    min-height:100vh;   
+    min-height: 100vh;
 }
 
 body * {
@@ -22,11 +21,12 @@ section {
     flex-direction: column;
 }
 
-section article{
+section article {
     width: 100%;
+    display: grid;
 }
 
-section article p{
+section article p {
     min-height: 200px;
 }
 
@@ -55,5 +55,10 @@ footer {
 @media (min-width: 640px) {
     section {
         flex-direction: row;
+    }
+}
+@media (min-width: 768px) {
+    aside {
+        max-width: 300px;
     }
 }
