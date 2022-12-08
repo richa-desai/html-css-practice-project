@@ -1,10 +1,13 @@
 
-/****** header ******/
 body * {
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
+.light-background {
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+}
 
+/****** button light blue ******/
 .blue-button{
     height: 40px;
     background: #C1F7D5 0% 0% no-repeat padding-box;
@@ -15,12 +18,28 @@ body * {
     border: none;
 }
 
+/****** headings ******/
 .heading {
     font: normal normal bold 18px/22px Helvetica;
     letter-spacing: 0px;
     color: #354463;
     opacity: 1;
 }
+.heading__background{
+    width: 160px;
+    height: 40px;
+    background: #354463 0% 0% no-repeat padding-box;
+}
+.heading-text {
+    font: normal normal normal 14px/17px Helvetica;
+    letter-spacing: 0.56px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/****** list of links ******/
 .links {
     list-style-type: none;
 }
@@ -36,4 +55,14 @@ body * {
     color: #354463;
     text-decoration:none;
     align-self: center;
+}
+.article-link {
+    color: #354463;
+    font: normal normal 300 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+}
+.paragraph {
+    font: normal normal 300 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
 }
