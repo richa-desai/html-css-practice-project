@@ -1,0 +1,33 @@
+
+/****** header ******/
+.home-header {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    background-color: yellow;
+}
+.home-header__title{
+    padding: 2.25rem 1.25rem;
+    background-color: red;
+}
+.links {
+    display: grid;
+    justify-content: center;
+    text-align: left;
+    background-color: blue;
+    padding: 18px;
+}
+.links li {
+    background-color: gray;
+    border: 1px solid;
+}
+.donate-today{
+    grid-column: span 2;
+    display: flex;
+    justify-content: space-around;
+}
+.donate-today__button{
+    width: 312px;
+}
+
+  
