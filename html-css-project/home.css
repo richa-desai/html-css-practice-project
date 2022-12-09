@@ -6,30 +6,36 @@
     grid-template-columns: 1fr 1fr;
 }
 .home-header__title{
-    padding: 2.25rem 1.25rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 .links {
     display: grid;
     justify-content: center;
     text-align: left;
-    padding: 18px;
+    padding: 18px 1%;
 }
 .donate-today{
     grid-column: span 2;
     display: flex;
     justify-content: space-around;
-    margin-bottom: 32px;
+    margin: 6px 0 32px;
 }
 .donate-today__button{
-    width: 312px;
+    width: 80vw;
+    max-width: 312px;
 }
 
 /****** section 1 ******/
 .section__first {
     background-image: url("./assets/assets/home/annie-spratt-135307-unsplash.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
     display: grid;
     grid-template-rows: auto auto;
-    background-size: 100% 100%;
 }
 .section__first--quote {
     text-align: left;
@@ -37,7 +43,7 @@
     letter-spacing: 0px;
     color: #FFFFFF;
     width: 80%;
-    margin: 1.2rem 0;
+    margin: 32px 0 136px;
     justify-self: center;
 }
 .section__first--article {
@@ -46,7 +52,8 @@
     grid-template-rows: auto auto auto;
     background: #FFFFFF;
     width: 80%;
-    margin: 5rem 0 3.4rem 0;
+    margin: 0 0 48px 0;
+    padding: 0 3%;
 }
 .section__first--heading {
     display: flex;
@@ -60,13 +67,11 @@
     letter-spacing: 0px;
     color: #354463;
     justify-self: center;
-    padding: 0.5rem 1.25rem;
 }
 .section__first--a {
     display: block;
     text-align: center;
-    margin: 1.25rem 0;
-    padding: 0.5rem 1.25rem;
+    margin: 32px 0 ;
 }
 
 /****** section 2 ******/
@@ -83,11 +88,53 @@
 .section__second--articles {
     display: grid;
     grid-template: 1fr 1fr/1fr 1fr;
-    padding: 1.75rem 2rem;
+    margin: 2% 5% 8%;
 }
 .actions {
-    margin-bottom: 1.25rem;
+    margin: 8% 8%;
 }
 .actions__heading {
     margin-bottom: 5px;
+}
+
+/*****Section 3*****/
+.section__third {
+    background: #354463 0% 0% no-repeat padding-box;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    padding: 30px 5%;
+}
+.section__third--heading {
+    display: flex;
+    justify-content: space-around;
+}
+.section__third--para {
+    text-align: center;
+    font: normal normal bold 22px/28px Helvetica;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin: 22px 0 82px;
+}
+.section__third--articles {
+    display: grid;
+}
+.section__third--article {
+    display: grid;
+    justify-self: center;
+    grid-template-rows: auto auto auto;
+    background: #FFFFFF;
+    width: 80%;
+    margin: 0 0 48px 0;
+    padding: 0 3% 32px;
+    text-align:center;
+}
+.section__third--articles img {
+    width: 80%;
+    height: auto;
+    justify-self: center;
+    position: relative;
+    bottom: 30px;
+}
+.section__third--paragraph {
+    margin: 22px 0;
 }

@@ -17,6 +17,10 @@ body * {
     color: #354463;
     border: none;
 }
+.read-more-btn {
+    font: normal normal bold 16px/20px Helvetica;
+    width: 152px;
+}
 
 /****** headings ******/
 .heading {
@@ -34,6 +38,19 @@ body * {
     font: normal normal normal 14px/17px Helvetica;
     letter-spacing: 0.56px;
     color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading__background--two {
+    width: 160px;
+    height: 40px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+.heading-text--two {
+    font: normal normal normal 14px/17px Helvetica;
+    letter-spacing: 0.56px;
+    color: #354463;
     display: flex;
     justify-content: center;
     align-items: center;
