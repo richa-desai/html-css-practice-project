@@ -140,10 +140,8 @@
 /***** section 4 ******/
 .section__fourth {
     background-image: url("./assets/assets/home/did-you-know-background.png");
-    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 100% 100%;
+    background-size: cover;
     display: grid;
     grid-template-rows: auto auto;
 }
@@ -158,7 +156,7 @@
     color: #FFFFFF;
 }
 .section-fourth--btn {
-    margin: 32px 0 22px;
+    margin: 22px 0 22px;
 }
 .section__fourth--articles {
     justify-self: center;
@@ -172,15 +170,38 @@
 }
 .did-you-know-boxes {
     background: #FFFFFF 0% 0% no-repeat padding-box;
-    margin: 20px;
+    margin: 0 0 20px;
+    padding: 30px;
     display: grid;
     grid-template-columns: auto auto;
+    justify-content: space-between;
 }
 .content-container {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: 80px;
+    margin-right: 2%;
 }
-@font-face {
-    font-family: "Flood Std";
-    src: url('./fonts/flood-std/FloodStd.otf');
-  }
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/***** section 5 ******/
+.section-fifth {
+    margin: 32px;
+}
+.section-fifth__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-fifth__img {
+    width: 100%;
+}
+.stories {
+    position: relative;
+    top: 20px;
+}
