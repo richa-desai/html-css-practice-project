@@ -205,3 +205,22 @@
     position: relative;
     top: 20px;
 }
+.section-fifth__article {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.section-fifth__content {
+    background: #354463 0% 0% no-repeat padding-box;
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 30px;
+}
+.section-fifth__blockquote {
+    font: normal normal bold 22px/28px Helvetica;
+    margin-bottom: 20px;
+}
+.section-fifth__btn {
+    margin: 32px;
+    justify-self: center;
+}
