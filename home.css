@@ -278,5 +278,34 @@
 /**** section 7 ****/
 .section-seven {
     display: grid;
-    grid: 1fr 1fr/ 1fr 1fr;
+    grid-template-rows: auto auto;
+    padding: 32px 0;
+}
+.section-seven h1 {
+    width: 80%;
+    justify-self: center;
+    font: normal normal bold 22px/28px Helvetica;
+    color: #354463;
+}
+.section-seven__input {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    padding: 30px 0 0;
+    justify-self: center;
+}
+.section-seven__email {
+    border-radius: 100px;
+    padding: 12px 2%;
+    border: none;
+    font: normal normal normal 14px/12px Helvetica;
+    margin-right: 2%;
+}
+.section-seven__btn {
+    background: #354463 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    font: normal normal bold 16px/19px Helvetica;
+    color: #C1F7D5;
+    padding: 10px 4%;
+    border: none;
 }
