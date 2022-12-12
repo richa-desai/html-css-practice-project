@@ -86,6 +86,11 @@ body * {
     letter-spacing: -0.14px;
     color: #354463;
 }
+.paragraph-two {
+    font: normal normal normal 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+    color: #FFFFFF;
+}
 .social-media-icon {
     display: grid;
     background: #C1F7D5 0% 0% no-repeat padding-box;
