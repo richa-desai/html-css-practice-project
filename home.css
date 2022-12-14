@@ -431,5 +431,87 @@
         width: 140px;
         align-self: center;
     }
+    /**** section 1 ****/
+    .section__first--article {
+        padding: 0 60px;
+    }
+    
+    .section__first--heading {
+        justify-content: left;
+    }
+    
+    .section__first--para {
+        text-align: left;
+    }
+    
+    .section__first--a {
+        text-align: left;
+    }
+
+    /*****Section 3*****/
+    .section__third--heading {
+        justify-content: left;
+    }
+
+    .section__third--para {
+        text-align: left;
+    }
+
+    .section__third--article {
+        grid-template-columns: auto auto;
+        width: auto;
+        max-height: 130px;
+        padding: 0 5% 192px;
+        text-align: left;
+    }
+    .section__third--articles img {
+        width: 100%;
+    }
+
+    .section__third--paragraph {
+        margin: 22px 0 22px 32px;
+        text-align: left;
+    }
+    .section__third--heading {
+        margin: 22px 0 22px 32px;
+    }
+    .section__third--article input {
+        position: relative;
+        right: calc(152px ); /* width of read more btn */
+        bottom: 10%;
+    }
+    /**** section 4 ****/
+
+    .section__fourth {
+        display: flex;
+        padding: 5%;
+        position: relative;
+    }
+
+    .section__fourth--container {
+        margin: 0 12px 22px 0;
+        justify-self: center;
+        width: auto;
+    }
+
+    .section-fourth--btn {
+        margin: 22px 0 22px;
+    }
+
+    .section__fourth--heading {
+        justify-content: left;
+        position: absolute;
+        left: 302px;
+        top: 15px;
+    }
+
+    .section__fourth--articles {
+        justify-self: center;
+        width: auto;
+    }
+
+    .did-you-know-boxes {
+        display: flex;
+    }
 
 }
