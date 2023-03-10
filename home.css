@@ -28,6 +28,7 @@
 .donate-today__button {
     width: 80vw;
     max-width: 312px;
+    cursor: pointer;
 }
 
 /****** section 1 ******/
