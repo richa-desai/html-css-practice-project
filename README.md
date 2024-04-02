@@ -4,3 +4,5 @@
 * Create a virtual environment with the command: virtualenv new-env-name
 * Now activate with: source new-env-name/bin/activate
 * Run home.html file
+
+![Alt text](/assets/common-images/quick-view-webpage.png?raw=true "A quick view of the webpage built")
